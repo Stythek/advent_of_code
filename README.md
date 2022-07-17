@@ -3,4 +3,4 @@ https://adventofcode.com/
 
 All credits go to Eric Wastl who creates the Advent of Code!
 
-These solutions are not great but they hopefully work.
+These solutions are not great but they hopefully work but I do not promise anything :D
