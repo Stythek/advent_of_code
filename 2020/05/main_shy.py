@@ -4,7 +4,7 @@ import math
 def binary_boarding_one():
     print(5*'-' + ' Binary Boarding Part 1 ' + 5*'-')
     input_list = []
-    with open('./input.txt') as f:
+    with open('./input.txt', encoding="utf-8") as f:
         for line in f:
             input_list.append(line.strip())
 
@@ -57,7 +57,7 @@ def binary_boarding_one():
 def binary_boarding_two():
     print(5*'-' + ' Binary Boarding Part 2 ' + 5*'-')
     input_list = []
-    with open('./input.txt') as f:
+    with open('./input.txt', encoding="utf-8") as f:
         for line in f:
             input_list.append(line.strip())
 

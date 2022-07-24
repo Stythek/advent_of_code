@@ -9,7 +9,7 @@ def toboggan_trajectory_one():
     empty_count_long = 0
     final_map_short = []
 
-    with open('./input.txt') as f:
+    with open('./input.txt', encoding="utf-8") as f:
         for line in f:
             final_map_short.append(list(line.strip()))
 
@@ -87,7 +87,7 @@ def toboggan_trajectory_two():
     ]
     for index, variant in enumerate(variants):
         temp = []
-        with open('./input.txt') as f:
+        with open('./input.txt', encoding="utf-8") as f:
             for line in f:
                 temp.append(list(line.strip()))
         final_map.append(temp)

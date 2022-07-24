@@ -7,7 +7,7 @@ def passport_processing_one():
     fields_all = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid', 'cid']
     fields_optional = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid']
 
-    with open('./input.txt') as f:
+    with open('./input.txt', encoding="utf-8") as f:
         for line in f:
             input_list.append(line.strip())
 
@@ -50,7 +50,7 @@ def passport_processing_two():
     fields_all = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid', 'cid']
     fields_optional = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid']
 
-    with open('./input.txt') as f:
+    with open('./input.txt', encoding="utf-8") as f:
         for line in f:
             input_list.append(line.strip())
 

@@ -6,7 +6,7 @@
 def part_1() -> None:
     square_len_paper = 0
 
-    with open('./input.txt') as input_file:
+    with open('./input.txt', encoding="utf-8") as input_file:
         # Input is format LxWxH
         for line in input_file:
             box_length, box_width, box_height = [
@@ -28,7 +28,7 @@ def part_1() -> None:
 def part_2() -> None:
     len_ribbon = 0
 
-    with open('./input.txt') as input_file:
+    with open('./input.txt', encoding="utf-8") as input_file:
         # Input is format LxWxH
         for line in input_file:
             # Formula for ribbon is 2*{shortest side} + 2* {medium side}

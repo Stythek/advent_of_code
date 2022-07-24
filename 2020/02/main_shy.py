@@ -1,7 +1,7 @@
 
 def password_philosophy_one():
     count = 0
-    with open('./input.txt') as f:
+    with open('./input.txt', encoding="utf-8") as f:
         for line in f:
             min_count = int(line.split('-')[0])
             max_count = int(line.split(' ')[0].split('-')[-1])
@@ -15,7 +15,7 @@ def password_philosophy_one():
 def password_philosophy_two():
     count = 0
     count_false = 0
-    with open('./input.txt') as f:
+    with open('./input.txt', encoding="utf-8") as f:
         for line in f:
             pos_one = int(line.split('-')[0])
             pos_two = int(line.split(' ')[0].split('-')[-1])
