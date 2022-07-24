@@ -1,3 +1,8 @@
+"""
+2022-07-23 Author: Steffen Hytrek
+"""
+
+
 def part_1() -> None:
     square_len_paper = 0
 

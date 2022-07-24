@@ -1,3 +1,7 @@
+"""
+2022-07-23 Author: Steffen Hytrek
+"""
+
 with open('./input.txt') as input_file:
     INPUT_STRING = input_file.read()
 
