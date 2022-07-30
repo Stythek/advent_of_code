@@ -36,6 +36,7 @@ def part_2() -> None:
     PAIR_REGEX = r'(..).*\1'
     LETTER_XYX_REGEX = r'(.).\1'
     count_good_strings = 0
+
     with open('./input.txt', encoding='utf-8') as input_file:
         for line in input_file:
             line = line.strip().strip('\n')
@@ -46,7 +47,6 @@ def part_2() -> None:
             if not re.search(LETTER_XYX_REGEX, line):
                 continue
             count_good_strings += 1
-            list_strings.append(line)
 
     print(f'Part 2: Found {count_good_strings} good strings.')
 
