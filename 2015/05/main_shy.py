@@ -1,5 +1,5 @@
 '''
-2022-07-24 Author: Steffen Hytrek
+2022-07-30 Author: Steffen Hytrek
 '''
 
 import re
@@ -11,7 +11,6 @@ def part_1() -> None:
     count_good_strings = 0
 
     with open('./input.txt', encoding='utf-8') as input_file:
-        # Input is format LxWxH
         for line in input_file:
             line = line.strip().strip('\n')
             # String contains at least 3 vowels (aeiou)
